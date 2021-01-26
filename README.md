@@ -9,6 +9,7 @@ https://console.developers.google.com/apis/api/container.googleapis.com/overview
 ```bash
 GOOGLE_PROJECT # project id
 export GOOGLE_CLOUD_KEYFILE_JSON=/PATH/TO/SERVICEACCOUNT/JSON
+export GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_CLOUD_KEYFILE_JSON
 ```
 
 ### plan & apply
