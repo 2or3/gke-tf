@@ -7,7 +7,7 @@ https://console.developers.google.com/apis/api/container.googleapis.com/overview
 ### Set ENV.
 
 ```bash
-GOOGLE_PROJECT # project id
+export GOOGLE_PROJECT=[your project id]
 export GOOGLE_CLOUD_KEYFILE_JSON=/PATH/TO/SERVICEACCOUNT/JSON
 export GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_CLOUD_KEYFILE_JSON
 ```
